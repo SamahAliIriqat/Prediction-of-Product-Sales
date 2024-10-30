@@ -25,6 +25,7 @@ There are 8523 record for 11 features as sows in the table below for the outlet 
 |max|21\.35|0\.328390948|266\.8884|2009\.0|13086\.9648|
 
 
+![image](https://github.com/user-attachments/assets/9bf7bca8-d97c-4912-90d6-f9a68d257a43)
 
 ## Methods
 The data was collectd from different outlets using the same data templete which includes the features that will be used to predict sales and the actual sales also. The data was prepared and analyse un the following steps:
@@ -34,18 +35,12 @@ The data was collectd from different outlets using the same data templete which 
 4-	Compare between those methods and determine the method that has the best prediction.
 
 ## Results
-Th 
+
 
 	
 
 
 
-I recomend Logistic Regressio for production, because it appears to be the most suitable for production.
-
-1. Recall Score: While the KNN model and the Logistic Regression model achieved similar results for recall, precision and f1-score, in the classification report of the best model, the Logistic Regression shows better performance in the recall score. In this case, a high recall is crucial because we want to minimize false negatives (predicting no stroke when one actually occurs). A higher recall means we are better at identifying actual stroke cases, which is more important than minimizing false positives.
-2. Model Interpretability: Logistic Regression models are generally more interpretable than KNN models. This means that we can understand the factors contributing to the model's predictions, making it easier to identify important variables and potential biases. Interpretability is often critical in healthcare settings for building trust and ensuring ethical decision making.
-3. Computational Efficiency: Logistic regression is generally faster to train and predict than KNN, especially with larger datasets. While the dataset in this code is relatively small, this becomes a larger factor in cases where the dataset is larger.
-4. Robustness to Outliers: While not explicitly addressed, logistic regression may be more robust to outliers than KNN. KNN's predictions are highly influenced by nearby data points. Outliers can distort these predictions, making logistic regression a safer bet in cases where outliers are present.
 
 ### Here are examples of how to embed images from your sub-folder
 
@@ -59,21 +54,31 @@ I recomend Logistic Regressio for production, because it appears to be the most 
 
 ## Model
 
-Describe your final model
+As a result of prediction the best model is the linear regression prediction, which have th minimum error with a high accuracy.
 
-Report the most important metrics
+Th feature affected the outlt salsare: 
 
-Refer to the metrics to describe how well the model would solve the business problem
+I recommend Random Forest model, according to the following issues:
+
+For Linear Regression: R-squared (train): 0.73 R-squared (test): 0.81
+
+For Random Forest: Training R-squared: 0.7299057809339075 Test R-squared: 0.8069287081198013
+
+The values of R-square in both Linear Regession are approximately the same in Random Forest.
+
+But MAE in Random Forest is much smaller than MAE in Linear Regression (2445.57 < 4177.05), so Random Forest has a smallest error as shown below: Linear Regression: MAE (train): 4181.90 MAE (test): 4177.05 MSE (train): 36979860.90 MSE (test): 35478020.68 RMSE (train): 6081.11 RMSE (test): 5956.34
+
+Random Forest: Best Random Forest MAE: 2445.5727708585323 Best Random Forest MSE: 18120064.019785218 Best Random Forest RMSE: 4256.766850531659
+
 
 ## Recommendations:
 
-More of your own text here
+We recommend to use this model in these supermarket and stores for the next years, also working on improving the features affect outletsales and increase it.
 
 
 ## Limitations & Next Steps
 
-More of your own text here
-
+The limittions that need to have in consideration is to have a continious time series in order to have a clear picture, also there is no need to contiuegatheringsince it sometimes t is a missleading data.
 
 ### For further information
 
