@@ -1,16 +1,16 @@
-# Title that recommends an action
-## Subtitle describing the analysis 
-https://github.com/SamahAliIriqat/Prediction-of-Product-Sales/tree/main
-**Author**: 
+“The Best Prediction of Sales” Project
+
+**Author**: Samah Iiriqat
+
+**Overview**
+The Best Prediction of Sales Project is a project for predicting the best model for the coming years 2024 and above, which will be chosen from different models and scenarios about specific outlet sales in 4 supermarkets and sports depending on 2023 data for specific features appearing in the data frame., notice that the data contains the establishment year for outlets (1985 to 2023 ).
 
 ### Business problem:
 
-Here is where you state the business problem you were trying to solve
-
+The problem with this project is to determine which features affect outlet sales and what is the best model to predict the outlet sales.
 
 ### Data:
-Data can include source and high-level description (e.g. # obs)
-
+This data was gathered from these stores, about specific items that the supermarkets and stores sales. It covers two main topics: items (identifier, wight, fat content, visibility, MPR) and outlet (identifier, establishment year, size, location type) which will be used to predict outlet sales.
 
 ## Methods
 - Data preparation steps with explanation and justification for choices
@@ -49,4 +49,4 @@ More of your own text here
 ### For further information
 
 
-For any additional questions, please contact **email**
+For any additional questions, please contact **samaheriqat@gmail.com**
