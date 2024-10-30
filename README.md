@@ -1,26 +1,37 @@
 **“The Best Prediction of Sales” Project**
 
-**Author**: Samah Iiriqat
+**Author**: Samah Iriqat
 
 **Overview**
-The Best Prediction of Sales Project is a project for predicting the best model for the coming years 2024 and above, which will be chosen from different models and scenarios about specific outlet sales in 4 supermarkets and sports depending on 2023 data for specific features appearing in the data frame., notice that the data contains the establishment year for outlets (1985 to 2023 ).
+The Best Prediction of Sales Project is a project for predicting the best model for the coming years 2024 and above, which will be chosen from different models and scenarios about specific outlet sales in 4 supermarkets and sports depending on adata collected for a time series (1985-2023) for specific features appearing in the data frame.
 
 ### Business problem:
 
 The problem with this project is to determine which features affect outlet sales and what is the best model to predict the outlet sales.
 
 ### Data:
-This data was gathered from these stores, about specific items that the supermarkets and stores sales. It covers two main topics: items (identifier, wight, fat content, visibility, MPR) and outlet (identifier, establishment year, size, location type) which will be used to predict outlet sales.
+This data was gathered from these supermarkets and stores, about specific items that the supermarkets and stores sales. It covers two main topics: items (identifier, wight, fat content, visibility, MPR) and outlet (identifier, establishment year, size, location type) which will be used to predict outlet sales.
 There are 5823 record for 
 
 ## Methods
-The data was collectd from different outlets using the same data templete which includes the features that will be used to predict sales and the actual sales also.
+The data was collectd from different outlets using the same data templete which includes the features that will be used to predict sales and the actual sales also. The data was prepared and analyse un the following steps:
 1-	Before analysis the data and building the model, there is a need to check the data (drop duplicate, find null, fill missing values with appropriate values, check data type, Updated column names to match the data frame).
 2-	The next step is to Define the target and features, processing them using suitable.
 3-	Analyses the data using different methods of prediction.
 4-	Compare between those methods and determine the method that has the best prediction.
 
 ## Results
+
+
+
+
+
+I recomend Logistic Regressio for production, because it appears to be the most suitable for production.
+
+1. Recall Score: While the KNN model and the Logistic Regression model achieved similar results for recall, precision and f1-score, in the classification report of the best model, the Logistic Regression shows better performance in the recall score. In this case, a high recall is crucial because we want to minimize false negatives (predicting no stroke when one actually occurs). A higher recall means we are better at identifying actual stroke cases, which is more important than minimizing false positives.
+2. Model Interpretability: Logistic Regression models are generally more interpretable than KNN models. This means that we can understand the factors contributing to the model's predictions, making it easier to identify important variables and potential biases. Interpretability is often critical in healthcare settings for building trust and ensuring ethical decision making.
+3. Computational Efficiency: Logistic regression is generally faster to train and predict than KNN, especially with larger datasets. While the dataset in this code is relatively small, this becomes a larger factor in cases where the dataset is larger.
+4. Robustness to Outliers: While not explicitly addressed, logistic regression may be more robust to outliers than KNN. KNN's predictions are highly influenced by nearby data points. Outliers can distort these predictions, making logistic regression a safer bet in cases where outliers are present.
 
 ### Here are examples of how to embed images from your sub-folder
 
