@@ -1,4 +1,4 @@
-“The Best Prediction of Sales” Project
+**“The Best Prediction of Sales” Project**
 
 **Author**: Samah Iiriqat
 
@@ -11,10 +11,14 @@ The problem with this project is to determine which features affect outlet sales
 
 ### Data:
 This data was gathered from these stores, about specific items that the supermarkets and stores sales. It covers two main topics: items (identifier, wight, fat content, visibility, MPR) and outlet (identifier, establishment year, size, location type) which will be used to predict outlet sales.
+There are 5823 record for 
 
 ## Methods
-- Data preparation steps with explanation and justification for choices
-- 
+The data was collectd from different outlets using the same data templete which includes the features that will be used to predict sales and the actual sales also.
+1-	Before analysis the data and building the model, there is a need to check the data (drop duplicate, find null, fill missing values with appropriate values, check data type, Updated column names to match the data frame).
+2-	The next step is to Define the target and features, processing them using suitable.
+3-	Analyses the data using different methods of prediction.
+4-	Compare between those methods and determine the method that has the best prediction.
 
 ## Results
 
