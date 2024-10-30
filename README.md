@@ -44,6 +44,9 @@ The below graph shows the distribution of outletsales by outlet type:
 > Sentence about visualization.
 
 #### Visual 2 Title
+![image](https://github.com/user-attachments/assets/768f8ebd-befe-49bc-b619-7ae3f318d41d)
+
+![image](https://github.com/user-attachments/assets/5cc73dc5-91b4-44fb-9f05-8cfab3cdff2d)
 
 ## Model
 
