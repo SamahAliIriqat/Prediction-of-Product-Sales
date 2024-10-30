@@ -54,15 +54,7 @@ The data was collectd from different outlets using the same data templete which 
 
 ## Model
 
-As a result of prediction the best model is the linear regression prediction, which have th minimum error with a high accuracy.
-
-Th feature affected the outlt salsare: 
-
-I recommend Random Forest model, according to the following issues:
-
-For Linear Regression using a techniqe called Random Forestin which R-squared: 00.8069287081198013, this means that this value describe approximately 81% of error occured 
-
-But MAE in Random Forest is much smaller than MAE in Linear Regression (2445.57 < 4177.05), so Random Forest has a smallest error as shown below: Linear Regression: MAE (train): 4181.90 MAE (test): 4177.05 MSE (train): 36979860.90 MSE (test): 35478020.68 RMSE (train): 6081.11 RMSE (test): 5956.34
+As a result of prediction the best model is the  lqssificqtion regression prediction (Random Forest Technique), which have th minimum error with a high accuracy;in which R-squared: 00.8069287081198013, this means that this value describe approximately 81% of the variance for outlet sales variable that's explained by an some features.But MAE in Random Forest is much smaller than MAE in Linear Regression (2445.57 < 4177.05), so Random Forest has a smallest error as shown below: Linear Regression: MAE (train): 4181.90 MAE (test): 4177.05 MSE (train): 36979860.90 MSE (test): 35478020.68 RMSE (train): 6081.11 RMSE (test): 5956.34
 
 Random Forest: Best Random Forest MAE: 2445.5727708585323 Best Random Forest MSE: 18120064.019785218 Best Random Forest RMSE: 4256.766850531659
 
