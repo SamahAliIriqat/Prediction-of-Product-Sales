@@ -33,9 +33,10 @@ The data was collectd from different outlets using the same data templete which 
 4-	Compare between those methods and determine the method that has the best prediction.
 
 ## Results
+To test which features affect the outlet sales, first we will distinguish which items exist in the data frame as shown in graph(1)below:
+![image](https://github.com/user-attachments/assets/5cc73dc5-91b4-44fb-9f05-8cfab3cdff2d)
 
-### Here are examples of how to embed images from your sub-folder
-
+The graph shows the items sales according to their visibility in stores and supermarkets, 
 
 #### Visual 1 Title
 The below graph shows the distribution of outletsales by outlet type:
@@ -46,7 +47,7 @@ The below graph shows the distribution of outletsales by outlet type:
 #### Visual 2 Title
 ![image](https://github.com/user-attachments/assets/768f8ebd-befe-49bc-b619-7ae3f318d41d)
 
-![image](https://github.com/user-attachments/assets/5cc73dc5-91b4-44fb-9f05-8cfab3cdff2d)
+
 
 ## Model
 
