@@ -35,22 +35,22 @@ The data was collectd from different outlets using the same data templete which 
 ## Results
 To test which features affect the outlet sales, first we will distinguish which items exist in the data frame as shown in graph(1) below:
 
-#### Graph (1):Distribution of Items by Visibility
+#### Graph (1): Distribution of Items by Visibility
 ![image](https://github.com/user-attachments/assets/5cc73dc5-91b4-44fb-9f05-8cfab3cdff2d)
 
-The graph shows the items sales according to their visibility in stores and supermarkets, in which it has the minimum value in store.
+The graph shows the items sales according to their visibility in stores and supermarkets, in which it has the maximum visibilityn is for seafood value in store.
 
-#### Graph (2):Distribution of Items by Establishment Year
+#### Graph (2): Distribution of Items by Establishment Year
 ![image](https://github.com/user-attachments/assets/768f8ebd-befe-49bc-b619-7ae3f318d41d)
 
 The graph shows the items sales according to their Establishment years, in which there is a missing data for specific years. 
 
 
-#### Graph (3):Distribution of Outletsales by Outlet Type
+#### Graph (3): Distribution of Outletsales by Outlet Type
 The below graph shows the distribution of outletsales by outlet type:
 ![image](https://github.com/user-attachments/assets/9bf7bca8-d97c-4912-90d6-f9a68d257a43)
 
-The graph shows the items sales according to their Establishment years, in which there is a missing data for specific years. 
+The graph shows the items sales according to their establishment years, in which it has the minimum value in Grocery store.
 
 ## Model
 
