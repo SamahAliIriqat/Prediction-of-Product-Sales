@@ -54,7 +54,7 @@ Random Forest: Best Random Forest MAE: 2445.5727708585323 Best Random Forest MSE
 
 ## Recommendations:
 
-We recommend to use this model in these supermarket and stores for the next years, also working on improving the features affect outletsales and increase it.
+We recommend to use this model for the next years, also working on improving the features affect outletsales and increase it.
 
 
 ## Limitations & Next Steps
