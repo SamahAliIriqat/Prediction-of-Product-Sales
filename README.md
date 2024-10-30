@@ -54,9 +54,12 @@ The graph shows the items sales according to their establishment years, in which
 
 ## Model
 
-As a result of prediction the best model is the  lqssificqtion regression prediction (Random Forest Technique), which have th minimum error with a high accuracy;in which R-squared: 00.8069287081198013, this means that this value describe approximately 81% of the variance for outlet sales variable that's explained by an some features.But MAE in Random Forest is much smaller than MAE in Linear Regression (2445.57 < 4177.05), so Random Forest has a smallest error as shown below: Linear Regression: MAE (train): 4181.90 MAE (test): 4177.05 MSE (train): 36979860.90 MSE (test): 35478020.68 RMSE (train): 6081.11 RMSE (test): 5956.34
+As a result of prediction the best model is the classification regression prediction (Random Forest Technique) because it appears to be the most suitable for production, which have the minimum error with a high accuracy; in which R-squared: 00.8069287081198013, this means that this value describe approximately 81% of the variance for outlet sales variable that's explained by an some features
 
-Random Forest: Best Random Forest MAE: 2445.5727708585323 Best Random Forest MSE: 18120064.019785218 Best Random Forest RMSE: 4256.766850531659
+1. Recall Score: While the KNN model and the Logistic Regression model achieved similar results for recall, precision and f1-score, in the classification report of the best model, the Logistic Regression shows better performance in the recall score. In this case, a high recall is crucial because we want to minimize false negatives (predicting no stroke when one actually occurs). A higher recall means we are better at identifying actual stroke cases, which is more important than minimizing false positives.
+2. Model Interpretability: Logistic Regression models are generally more interpretable than KNN models. This means that we can understand the factors contributing to the model's predictions, making it easier to identify important variables and potential biases. Interpretability is often critical in healthcare settings for building trust and ensuring ethical decision making.
+3. Computational Efficiency: Logistic regression is generally faster to train and predict than KNN, especially with larger datasets. While the dataset in this code is relatively small, this becomes a larger factor in cases where the dataset is larger.
+4. Robustness to Outliers: While not explicitly addressed, logistic regression may be more robust to outliers than KNN. KNN's predictions are highly influenced by nearby data points. Outliers can distort these predictions, making logistic regression a safer bet in cases where outliers are present.
 
 
 ## Recommendations:
