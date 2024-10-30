@@ -32,6 +32,9 @@ The data was collectd from different outlets using the same data templete which 
 3-	Analyze the data using different methods of prediction.
 4-	Compare between those methods and determine the method that has the best prediction.
 
+![image](https://github.com/user-attachments/assets/39cab705-bedc-48a8-bbac-32a9652d5572)
+
+
 ## Results
 To test which features affect the outlet sales, first we will distinguish which items exist in the data frame as shown in graph(1) below:
 
@@ -69,7 +72,7 @@ We recommend to use this model for the next years, also working on improving the
 
 ## Limitations & Next Steps
 
-The limittions that need to have in consideration is to have a continious time series in order to have a clear picture, also there is no need to contiuegatheringsince it sometimes t is a missleading data.
+The limittions that need to have in consideration is to have a continious time series in order to have a clear picture, also there is no need to contiue gathering since it sometimes it is a missleading data.
 
 ### For further information
 
