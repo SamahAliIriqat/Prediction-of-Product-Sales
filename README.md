@@ -24,7 +24,7 @@ There are 8523 record for 11 features as sows in the table below for the outlet 
 |75%|16\.85|0\.0945852925|185\.6437|2004\.0|3101\.2964|
 |max|21\.35|0\.328390948|266\.8884|2009\.0|13086\.9648|
 
-The below graph shows the distribution of outletsales for a specific items in su[ermarkets and stores:
+The below graph shows the distribution of outletsales by out let type:
 ![image](https://github.com/user-attachments/assets/9bf7bca8-d97c-4912-90d6-f9a68d257a43)
 
 ## Methods
