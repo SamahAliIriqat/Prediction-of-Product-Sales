@@ -3,7 +3,7 @@
 **Author**: Samah Iriqat
 
 **Overview**
-The Best Prediction of Sales Project is a project for predicting the best model for the coming years 2024 and above, which will be chosen from different models and scenarios about specific outlet sales in 4 supermarkets and stores depending on adata collected for a time series (1985-2023) for specific features appearing in the data frame.
+The Best Prediction of Sales Project is a project for predicting the best model for the coming years 2024 and above, which will be chosen from different models and scenarios about specific outlet sales in 4 supermarkets and stores depending on adata collected for a time series (1985-2009) for specific features appearing in the data frame.
 
 ### Business problem:
 
@@ -33,18 +33,20 @@ The data was collectd from different outlets using the same data templete which 
 4-	Compare between those methods and determine the method that has the best prediction.
 
 ## Results
-To test which features affect the outlet sales, first we will distinguish which items exist in the data frame as shown in graph(1)below:
+To test which features affect the outlet sales, first we will distinguish which items exist in the data frame as shown in graph(1) below:
+
+#### Graph (1):Distribution of Items by Visibility
 ![image](https://github.com/user-attachments/assets/5cc73dc5-91b4-44fb-9f05-8cfab3cdff2d)
 
 The graph shows the items sales according to their visibility in stores and supermarkets, 
 
-#### Visual 1 Title
+#### Graph (2):Distribution of Outletsales by Outlet Type
 The below graph shows the distribution of outletsales by outlet type:
 ![image](https://github.com/user-attachments/assets/9bf7bca8-d97c-4912-90d6-f9a68d257a43)
 
 > Sentence about visualization.
-
-#### Visual 2 Title
+> 
+#### Graph (3):Distribution of Outletsales by Outlet Type
 ![image](https://github.com/user-attachments/assets/768f8ebd-befe-49bc-b619-7ae3f318d41d)
 
 
