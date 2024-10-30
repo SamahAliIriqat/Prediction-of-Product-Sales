@@ -24,7 +24,7 @@ There are 8523 record for 11 features as sows in the table below for the outlet 
 |75%|16\.85|0\.0945852925|185\.6437|2004\.0|3101\.2964|
 |max|21\.35|0\.328390948|266\.8884|2009\.0|13086\.9648|
 
-
+The below graph shows the distribution of outletsales for a specific items in su[ermarkets and stores:
 ![image](https://github.com/user-attachments/assets/9bf7bca8-d97c-4912-90d6-f9a68d257a43)
 
 ## Methods
@@ -60,11 +60,7 @@ Th feature affected the outlt salsare:
 
 I recommend Random Forest model, according to the following issues:
 
-For Linear Regression: R-squared (train): 0.73 R-squared (test): 0.81
-
-For Random Forest: Training R-squared: 0.7299057809339075 Test R-squared: 0.8069287081198013
-
-The values of R-square in both Linear Regession are approximately the same in Random Forest.
+For Linear Regression using a techniqe called Random Forestin which R-squared: 00.8069287081198013, this means that this value describe approximately 81% of error occured 
 
 But MAE in Random Forest is much smaller than MAE in Linear Regression (2445.57 < 4177.05), so Random Forest has a smallest error as shown below: Linear Regression: MAE (train): 4181.90 MAE (test): 4177.05 MSE (train): 36979860.90 MSE (test): 35478020.68 RMSE (train): 6081.11 RMSE (test): 5956.34
 
