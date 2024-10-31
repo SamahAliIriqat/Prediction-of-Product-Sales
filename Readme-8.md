@@ -128,6 +128,15 @@ MSE (test): 1143867.75
 RMSE (train): 1141.39
 RMSE (test): 1069.5
 
+
+![image](https://github.com/user-attachments/assets/1032c69d-9234-43c0-ab3d-39b2e730ef2f)
+
+
+
+
+
+
+
 Random Forest:
 Best Random Forest MAE: 2445.5727708585323
 Best Random Forest MSE: 18120064.019785218
