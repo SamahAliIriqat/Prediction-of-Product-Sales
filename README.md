@@ -48,20 +48,24 @@ The data was collectd from different outlets using the same data templete which 
 
 
 ## Results
-To test which features affect the outlet sales, first we will distinguish which items exist in the data frame as shown in graph(1) below:
+To test which features affect the outlet sales, first we will distinguish which items exist in the data frame as shown in graph (1) below:
 
-#### Graph (1): Distribution of Items by Visibility
+#### Graph (1): Distribution of outleat slaes
+![image](https://github.com/user-attachments/assets/b348784b-99c2-4753-ab7a-78ea20ab6122)
+
+The gaph shows the values of outlet sales and there are cheap outlets and expensive outlets wich cost 12,000.
+
+#### Graph (2): Distribution of Items by Visibility
 ![image](https://github.com/user-attachments/assets/5cc73dc5-91b4-44fb-9f05-8cfab3cdff2d)
 
 The graph shows the items sales according to their visibility in stores and supermarkets, in which it has the maximum visibilityn is for seafood value in store.
 
-#### Graph (2): Distribution of Items by Establishment Year
+#### Graph (3): Distribution of Items by Establishment Year
 ![image](https://github.com/user-attachments/assets/e2b90d1c-e5cc-42ab-bf09-273f7bf1782a)
 
 The graph shows the items sales according to their Establishment years, in which there is a missing data for specific years. 
 
-
-#### Graph (3): Distribution of Outletsales by Outlet Type
+#### Graph (4): Distribution of Outletsales by Outlet Type
 The below graph shows the distribution of outletsales by outlet type:
 ![image](https://github.com/user-attachments/assets/9bf7bca8-d97c-4912-90d6-f9a68d257a43)
 
