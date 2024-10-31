@@ -30,7 +30,8 @@ The data was collectd from different outlets using the same data templete which 
 1-	Before analysis the data and building the model, there is a need to check the data (drop duplicate, find null, fill missing values with appropriate values, check data type, Updated column names to match the data frame).
 2-	The next step is to define the target and features, processing them using suitable.
 3-	Analyze the data using different methods of prediction.
-4-	Compare between those methods and determine the method that has the best prediction.
+4-	Compare between those methods and determine the method that has the best prediction (evaluation).
+
 
 ![image](https://github.com/user-attachments/assets/39cab705-bedc-48a8-bbac-32a9652d5572)
 
