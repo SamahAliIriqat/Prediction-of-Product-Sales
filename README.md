@@ -5,6 +5,14 @@
 **Overview**
 The Best Prediction of Sales Project is a project for predicting the best model for the coming years 2024 and above, which will be chosen from different models and scenarios about specific outlet sales in 4 supermarkets and stores depending on adata collected for a time series (1985-2009) for specific features appearing in the data frame.
 
+Our stakeholders are: Owners of supermarkets and store.
+
+Their primary goal is: Increase the outlt sales for specific itm whih wer sales in those places.
+
+They plan to:Build the best model to predict the maximum sales and determining the which features affect outlt sales.
+
+What do they need/expect? Actionable insights/recommendations for which modifications they can make to increase the outlt sales.
+
 ### Business problem:
 
 The problem with this project is to determine which features affect outlet sales and what is the best model to predict the outlet sales.
