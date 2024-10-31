@@ -219,7 +219,7 @@ The below graph shows the distribution of outletsales by outlet type:
 
 The graph shows the items sales according to their establishment years, in which it has the minimum value in Grocery store.
 
-## Model
+## Model: Linear Regression
 
 As a result of prediction the best model is the regression prediction (Random Forest Model) because it appears to be the most suitable for production, which have the minimum error with a high accuracy; in which R-squared: 00.8069287081198013, this means that this value describe approximately 81% of the variance for outlet sales variable that's explained by an some features according to the following issues:
 
@@ -227,14 +227,6 @@ For Linear Regression:
 R-squared (train): 0.73
 R-squared (test): 0.81
 
-For Random Forest:
-Training R-squared: 0.7299057809339075
-Test R-squared: 0.8069287081198013
-
-The values of R-square in both Linear Regession are approximately the same in Random Forest.
-
-But MAE in Random Forest is much smaller than MAE in Linear Regression (2445.57 < 4177.05), so Random Forest has a smallest error as shown below:
-Linear Regression:
 Mean Squared Error (MSE): 3.643354698251804e+25
 Root Mean Squared Error (RMSE): 6036020790431.2295
 R-squared (R2): -1.3404690298105391e+19
@@ -247,10 +239,34 @@ MSE (test): 35478020.68
 RMSE (train): 6081.11
 RMSE (test): 5956.34
 
+
+![image](https://github.com/user-attachments/assets/c0b2fedc-d33a-4477-a338-836f2c3d23d2)
+
+cat__Outlet_Type_Supermarket Type3: 1249988156654456.25
+cat__Outlet_Identifier_OUT035: 1278535293288521.25
+cat__Outlet_Location_Type_Tier 1: 1288675199406667.25
+
+The best 3 coefficients that affect the prediction of outlet sales are rasons related to outlet not item, these coefficients are; outlet type supermarket, outlet idntidier (OUT035) and outlet location type tier.
+, and thir affect depends on the value of the cosfficient, so the most affect is outlet type supermarket, then outlet location type tier, then utlet idntidier (OUT035).
+  
+
+## Model: Random Forest
+
 Random Forest:
+Mean Squared Error: 1401812.6508824883
+R-squared: 0.47499656131923973
+
 Best Random Forest MAE: 2445.5727708585323
 Best Random Forest MSE: 18120064.019785218
 Best Random Forest RMSE: 4256.766850531659
+
+![image](https://github.com/user-attachments/assets/60caf81e-77a5-4026-8dfd-44e23dc09c30)
+
+cat__Item_Type_Soft Drinks: -54606955382288.55
+num__Outlet_Establishment_Year: 1563157510754344.50
+cat__Item_Type_Others: 76296992397315.31
+cat__Outlet_Identifier_OUT049: -54606955385767.59
+cat__Outlet_Identifier_OUT046: 117967247047643.22
 
 We used other modls and evalute them, then comparing between the result we note the following:
 
