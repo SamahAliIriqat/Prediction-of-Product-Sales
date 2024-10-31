@@ -99,17 +99,11 @@ The graph shows the items sales according to their establishment years, in which
 
 ## Model
 
-As a result of prediction the best model is the regression prediction (Random Forest Model) because it appears to be the most suitable for production, which have the minimum error with a high accuracy; in which R-squared: 00.8069287081198013, this means that this value describe approximately 81% of the variance for outlet sales variable that's explained by an some features according to the following issues:
+As a result of prediction the best model is the regression prediction (Random Forest Model) because it appears to be the most suitable for production, which have the minimum error with a high accuracy; in which R-squared: 00.58, this means that this value describe approximately 81% of the variance for outlet sales variable that's explained by an some features according to the following issues:
 
 For Linear Regression:
-R-squared (train): 0.66
-R-squared (test): 0.81
-
-For Random Forest:
-Training R-squared: 0.7299057809339075
-Test R-squared: 0.8069287081198013
-
-The values of R-square in both Linear Regession are approximately the same in Random Forest.
+R-squared (train): 0.56
+R-squared (test): 0.58
 
 But MAE in Random Forest is much smaller than MAE in Linear Regression (2445.57 < 4177.05), so Random Forest has a smallest error as shown below:
 
@@ -128,7 +122,12 @@ MSE (test): 1143867.75
 RMSE (train): 1141.39
 RMSE (test): 1069.5
 
+The most affected features in affecting outlet sales as shown below and in the grapgh (5):
+1- Outlet_Type_Supermarket Type3: 1249988156654456.25
+2- Outlet_Identifier_OUT035: 1278535293288521.25
+3-Outlet_Location_Type_Tier 1: 1288675199406667.25
 
+Graph (5): Affected features in Outlet Sales
 ![image](https://github.com/user-attachments/assets/1032c69d-9234-43c0-ab3d-39b2e730ef2f)
 
 
