@@ -69,7 +69,33 @@ The graph shows the items sales according to their establishment years, in which
 
 ## Model
 
-As a result of prediction the best model is the classification regression prediction (Random Forest Technique) because it appears to be the most suitable for production, which have the minimum error with a high accuracy; in which R-squared: 00.8069287081198013, this means that this value describe approximately 81% of the variance for outlet sales variable that's explained by an some features
+As a result of prediction the best model is the regression prediction (Random Forest Model) because it appears to be the most suitable for production, which have the minimum error with a high accuracy; in which R-squared: 00.8069287081198013, this means that this value describe approximately 81% of the variance for outlet sales variable that's explained by an some features according to the following issues:
+
+For Linear Regression:
+R-squared (train): 0.73
+R-squared (test): 0.81
+
+For Random Forest:
+Training R-squared: 0.7299057809339075
+Test R-squared: 0.8069287081198013
+
+The values of R-square in both Linear Regession are approximately the same in Random Forest.
+
+But MAE in Random Forest is much smaller than MAE in Linear Regression (2445.57 < 4177.05), so Random Forest has a smallest error as shown below:
+Linear Regression:
+MAE (train): 4181.90
+MAE (test): 4177.05
+MSE (train): 36979860.90
+MSE (test): 35478020.68
+RMSE (train): 6081.11
+RMSE (test): 5956.34
+
+Random Forest:
+Best Random Forest MAE: 2445.5727708585323
+Best Random Forest MSE: 18120064.019785218
+Best Random Forest RMSE: 4256.766850531659
+
+We usd othr modls and eevalute them, then comparing between the result we note the following:
 
 1. Recall Score: While the KNN model and the Logistic Regression model achieved similar results for recall, precision and f1-score, in the classification report of the best model, the Logistic Regression shows better performance in the recall score. In this case, a high recall is crucial because we want to minimize false negatives (predicting no stroke when one actually occurs). A higher recall means we are better at identifying actual stroke cases, which is more important than minimizing false positives.
 2. Model Interpretability: Logistic Regression models are generally more interpretable than KNN models. This means that we can understand the factors contributing to the model's predictions, making it easier to identify important variables and potential biases. Interpretability is often critical in healthcare settings for building trust and ensuring ethical decision making.
