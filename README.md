@@ -18,7 +18,10 @@ What do they need/expect? Actionable insights/recommendations for which modifica
 The problem with this project is to determine which features affect outlet sales and what is the best model to predict the outlet sales.
 
 ### Data:
-This data was gathered from these supermarkets and stores, about specific items that the supermarkets and stores sales. It covers two main topics: items (identifier, wight, fat content, visibility, MPR) and outlet (identifier, establishment year, size, location type) which will be used to predict outlet sales.
+This data was gathered from these supermarkets and stores, about specific items that the supermarkets and stores sales. It covers two main topics: 
+Items (identifier, wight, fat content, visibility, MPR).
+Outlet (identifier, establishment year, size, location type) which will be used to predict outlet sales.
+
 There are 8523 record for 11 features as sows in the table below for the outlet sales and some fatures:
 
 |index|Item\_Weight|Item\_Visibility|Item\_MRP|Outlet\_Establishment\_Year|Item\_Outlet\_Sales|
@@ -35,7 +38,7 @@ There are 8523 record for 11 features as sows in the table below for the outlet 
 
 ## Methods
 The data was collectd from different outlets using the same data templete which includes the features that will be used to predict sales and the actual sales also. The data was prepared and analyse un the following steps:
-1-	Before analysis the data and building the model, there is a need to check the data (drop duplicate, find null, fill missing values with appropriate values, check data type, Updated column names to match the data frame).
+1-	Before analysis the data and building the model, there is a need to check the data (drop duplicate, find null, fill missing /unlogical values with appropriate values, check data type, Updated column names to match the data frame, convert data from string to numeric as needed, ....).
 2-	The next step is to define the target and features, processing them using suitable.
 3-	Analyze the data using different methods of prediction.
 4-	Compare between those methods and determine the method that has the best prediction (evaluation).
