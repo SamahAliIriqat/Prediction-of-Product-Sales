@@ -140,16 +140,26 @@ The most affected features in affecting outlet sales as shown below and in the g
 Graph (5): Affected features in Outlet Sales
 ![image](https://github.com/user-attachments/assets/1032c69d-9234-43c0-ab3d-39b2e730ef2f)
 
-
-
-
-
-
+The best 3 coefficients that affect the prediction of outlet sales are rasons related to outlet not item, these coefficients are; outlet type supermarket, outlet idntidier (OUT035) and outlet location type tier.
+, and thir affect depends on the value of the cosfficient, so the most affect is outlet type supermarket, then outlet location type tier, then utlet idntidier (OUT035).
 
 Random Forest:
 Best Random Forest MAE: 2445.5727708585323
 Best Random Forest MSE: 18120064.019785218
 Best Random Forest RMSE: 4256.766850531659
+
+
+![image](https://github.com/user-attachments/assets/9040dbba-ff48-40ad-bc2e-eef4ef021fae)
+
+.cat__Item_Type_Soft Drinks: -54606955382288.55
+num__Outlet_Establishment_Year: 1563157510754344.50
+cat__Item_Type_Others: 76296992397315.31
+cat__Outlet_Identifier_OUT049: -54606955385767.59
+cat__Outlet_Identifier_OUT046: 117967247047643.22
+
+
+
+
 
 We usd othr modls and eevalute them, then comparing between the result we note the following:
 
