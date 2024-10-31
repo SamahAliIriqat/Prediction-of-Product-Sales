@@ -38,7 +38,7 @@ There are 8523 record for 11 features as sows in the table below for the outlet 
 
 ## Methods
 The data was collectd from different outlets using the same data templete which includes the features that will be used to predict sales and the actual sales also. The data was prepared and analyse un the following steps:
-1-	Before analysis the data and building the model, there is a need to check the data (drop duplicate, find null, fill missing /unlogical values with appropriate values, check data type, Updated column names to match the data frame, convert data from string to numeric as needed, ....).
+1-	Before analysis the data and building the model, there is a need to check the data (drop duplicate, find null, fill missing /unlogical values with appropriate values, check data type, Updated column names to match the data frame, convert data from string to numeric as needed, combine/sparated fatures if neded,check if th Is the feature constant or quasi-constant,check the cardinality:is it high or low, encode categorical / ordinal data with the approriate encodrs, ..)
 2-	The next step is to define the target and features, processing them using suitable.
 3-	Analyze the data using different methods of prediction.
 4-	Compare between those methods and determine the method that has the best prediction (evaluation).
