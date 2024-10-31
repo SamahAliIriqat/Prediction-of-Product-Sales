@@ -102,7 +102,7 @@ The graph shows the items sales according to their establishment years, in which
 As a result of prediction the best model is the regression prediction (Random Forest Model) because it appears to be the most suitable for production, which have the minimum error with a high accuracy; in which R-squared: 00.8069287081198013, this means that this value describe approximately 81% of the variance for outlet sales variable that's explained by an some features according to the following issues:
 
 For Linear Regression:
-R-squared (train): 0.73
+R-squared (train): 0.66
 R-squared (test): 0.81
 
 For Random Forest:
