@@ -122,6 +122,16 @@ MSE (test): 1143867.75
 RMSE (train): 1141.39
 RMSE (test): 1069.5
 
+Best Linear Regression:
+R-squared (train): 0.65
+R-squared (test): -6064525988327.72
+MAE (train): 752.48
+MAE (test): 179573195.29
+MSE (train): 1027287.28
+MSE (test): 16483200104496646144.00
+RMSE (train): 1013.55
+RMSE (test): 4059950751.49
+
 The most affected features in affecting outlet sales as shown below and in the grapgh (5):
 1- Outlet_Type_Supermarket Type3: 1249988156654456.25
 2- Outlet_Identifier_OUT035: 1278535293288521.25
