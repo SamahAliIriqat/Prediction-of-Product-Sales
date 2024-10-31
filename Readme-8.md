@@ -113,12 +113,14 @@ The values of R-square in both Linear Regession are approximately the same in Ra
 
 But MAE in Random Forest is much smaller than MAE in Linear Regression (2445.57 < 4177.05), so Random Forest has a smallest error as shown below:
 Linear Regression:
-MAE (train): 4181.90
-MAE (test): 4177.05
-MSE (train): 36979860.90
-MSE (test): 35478020.68
-RMSE (train): 6081.11
-RMSE (test): 5956.34
+R-squared (train): 0.66
+R-squared (test): -13404690298105391104.00
+MAE (train): 743.22
+MAE (test): 357326046526.24
+MSE (train): 994520.00
+MSE (test): 36433546982518040612044800.00
+RMSE (train): 997.26
+RMSE (test): 6036020790431.23
 
 Random Forest:
 Best Random Forest MAE: 2445.5727708585323
