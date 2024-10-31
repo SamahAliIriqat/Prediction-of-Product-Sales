@@ -56,7 +56,7 @@ To test which features affect the outlet sales, first we will distinguish which 
 The graph shows the items sales according to their visibility in stores and supermarkets, in which it has the maximum visibilityn is for seafood value in store.
 
 #### Graph (2): Distribution of Items by Establishment Year
-![image](https://github.com/user-attachments/assets/768f8ebd-befe-49bc-b619-7ae3f318d41d)
+![image](https://github.com/user-attachments/assets/e2b90d1c-e5cc-42ab-bf09-273f7bf1782a)
 
 The graph shows the items sales according to their Establishment years, in which there is a missing data for specific years. 
 
