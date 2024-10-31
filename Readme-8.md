@@ -99,30 +99,10 @@ The graph shows the items sales according to their establishment years, in which
 
 ## Model
 
-As a result of prediction the best model is the regression prediction (Random Forest Model) because it appears to be the most suitable for production, which have the minimum error with a high accuracy; in which R-squared: 00.58, this means that this value describe approximately 81% of the variance for outlet sales variable that's explained by an some features according to the following issues:
+As a result of prediction the best model is the regression prediction (Random Forest Model) because it appears to be the most suitable for production, which have the minimum error with a high accuracy; and it describes more than the half of the variance for outlet sales and also it has the minimum error in the other metricsvariable that's explained by an some features according to the following issues:
 
-For Linear Regression:
-R-squared (train): 0.56
-R-squared (test): 0.58
-
-But MAE in Random Forest is much smaller than MAE in Linear Regression (2445.57 < 4177.05), so Random Forest has a smallest error as shown below:
-
-Mean Squared Error (MSE): 1143867.745452929
-Root Mean Squared Error (RMSE): 1069.5175292873553
-R-squared (R2): 0.5791463049934196
-Mean Absolute Error (MAE): 792.0387641055719
-
-Linear Regression:
-R-squared (train): 0.56
-R-squared (test): 0.58
-MAE (train): 847.28
-MAE (test): 792.04
-MSE (train): 1302770.15
-MSE (test): 1143867.75
-RMSE (train): 1141.39
-RMSE (test): 1069.5
-
-Best Linear Regression:
+**For Linear Regression**:
+The following are the metrics found for the best estimater for Linear Regression train and test data: Mean Squared Error (MSE), Root Mean Squared Error (RMSE), R-squared (R2) and Mean Absolute Error (MAE): 
 R-squared (train): 0.65
 R-squared (test): -6064525988327.72
 MAE (train): 752.48
@@ -132,30 +112,35 @@ MSE (test): 16483200104496646144.00
 RMSE (train): 1013.55
 RMSE (test): 4059950751.49
 
-The most affected features in affecting outlet sales as shown below and in the grapgh (5):
+**Graph (5): Affected features in Outlet Sales**
+![image](https://github.com/user-attachments/assets/1032c69d-9234-43c0-ab3d-39b2e730ef2f)
+
+The best 3 coefficients that affect the prediction of outlet sales are reasons related to outlet not item, these coefficients are; outlet type supermarket, outlet idntidier (OUT035) and outlet location type tier.
+, and thir affect depends on the value of the cosfficient, so the most affect is outlet type supermarket, then outlet location type tier, then utlet idntidier (OUT035).
 1- Outlet_Type_Supermarket Type3: 1249988156654456.25
 2- Outlet_Identifier_OUT035: 1278535293288521.25
 3-Outlet_Location_Type_Tier 1: 1288675199406667.25
 
-Graph (5): Affected features in Outlet Sales
-![image](https://github.com/user-attachments/assets/1032c69d-9234-43c0-ab3d-39b2e730ef2f)
+**For Random Forest**:
+The following are the metrics found for the best estimater for Random Forest train and test data: Mean Squared Error (MSE), Root Mean Squared Error (RMSE), R-squared (R2) and Mean Absolute Error (MAE): 
+R-squared (train): 0.52
+R-squared (test): 0.51
+MAE (train): 855.29
+MAE (test): 843.99
+MSE (train): 1348922.18
+MSE (test): 1315080.08
+RMSE (train): 1161.43
+RMSE (test): 1146.77
 
-The best 3 coefficients that affect the prediction of outlet sales are rasons related to outlet not item, these coefficients are; outlet type supermarket, outlet idntidier (OUT035) and outlet location type tier.
-, and thir affect depends on the value of the cosfficient, so the most affect is outlet type supermarket, then outlet location type tier, then utlet idntidier (OUT035).
-
-Random Forest:
-Best Random Forest MAE: 2445.5727708585323
-Best Random Forest MSE: 18120064.019785218
-Best Random Forest RMSE: 4256.766850531659
-
-
+**Graph (6): Affected features in Outlet Sales**
 ![image](https://github.com/user-attachments/assets/9040dbba-ff48-40ad-bc2e-eef4ef021fae)
 
-.cat__Item_Type_Soft Drinks: -54606955382288.55
-num__Outlet_Establishment_Year: 1563157510754344.50
-cat__Item_Type_Others: 76296992397315.31
-cat__Outlet_Identifier_OUT049: -54606955385767.59
-cat__Outlet_Identifier_OUT046: 117967247047643.22
+The best 5 coefficients that affect the prediction of outlet sales are reasons related to outlet not item, these coefficients are: item type soft drinks, outlet estableshment year, item type others), outlet identifier (OUT049) and outlet identifier (OUT046), and their affect depends on the value of the cosfficient, so the most affect is item type (other), then outlet establishment year, then outlet identifier (OUT046), thn with a negative affect:Outlet Identifier (OUT049) and itm typ soft drink.
+Item_Type_Soft Drinks: -54606955382288.55
+Outlet_Establishment_Year: 1563157510754344.50
+Item_Type_Others: 76296992397315.31
+Outlet_Identifier_OUT049: -54606955385767.59
+Outlet_Identifier_OUT046: 117967247047643.22
 
 
 
