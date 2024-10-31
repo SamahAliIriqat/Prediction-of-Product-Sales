@@ -48,7 +48,7 @@ This data was gathered from these supermarkets and stores, about specific items 
 Items (identifier, wight, fat content, visibility, MPR).
 Outlet (identifier, establishment year, size, location type) which will be used to predict outlet sales.
 
-There are 8523 record for 11 features as sows in the table below for the outlet sales and some fatures:
+There are 7440 record for 11 features as sows in the table below for the outlet sales and some fatures:
 
 |index|Item\_Weight|Item\_Visibility|Item\_MRP|Outlet\_Establishment\_Year|Item\_Outlet\_Sales|
 |---|---|---|---|---|---|
@@ -82,20 +82,20 @@ To test which features affect the outlet sales, first we will distinguish which 
 The gaph shows the values of outlet sales and there are cheap outlets and expensive outlets wich cost more than 13,000.
 
 #### Graph (2): Distribution of Items by Visibility
-![image](https://github.com/user-attachments/assets/5cc73dc5-91b4-44fb-9f05-8cfab3cdff2d)
+![image](https://github.com/user-attachments/assets/50cb35e8-5f21-4443-a1f7-50c0eabfef6b)
 
 The graph shows the items sales according to their visibility in stores and supermarkets, in which it has the maximum visibilityn is for seafood value in store.
 
 #### Graph (3): Distribution of Items by Establishment Year
-![image](https://github.com/user-attachments/assets/e2b90d1c-e5cc-42ab-bf09-273f7bf1782a)
+![image](https://github.com/user-attachments/assets/4d1a8598-7029-44ef-a052-a2ca3ca9ad3d)
 
 The graph shows the items sales according to their Establishment years, in which there is a missing data for specific years. 
 
 #### Graph (4): Distribution of Outletsales by Outlet Type
 The below graph shows the distribution of outletsales by outlet type:
-![image](https://github.com/user-attachments/assets/9bf7bca8-d97c-4912-90d6-f9a68d257a43)
+![image](https://github.com/user-attachments/assets/7d64cff5-508c-4f11-907c-0928d7f503fd)
 
-The graph shows the items sales according to their establishment years, in which it has the minimum value in Grocery store.
+The graph shows the items sales according to their establishment years, in which it has the minimum value in supermarket type2.
 
 ## Model
 
