@@ -199,6 +199,11 @@ The values of R-square in both Linear Regession are approximately the same in Ra
 
 But MAE in Random Forest is much smaller than MAE in Linear Regression (2445.57 < 4177.05), so Random Forest has a smallest error as shown below:
 Linear Regression:
+Mean Squared Error (MSE): 3.643354698251804e+25
+Root Mean Squared Error (RMSE): 6036020790431.2295
+R-squared (R2): -1.3404690298105391e+19
+Mean Absolute Error (MAE): 357326046526.239
+
 MAE (train): 4181.90
 MAE (test): 4177.05
 MSE (train): 36979860.90
@@ -211,7 +216,7 @@ Best Random Forest MAE: 2445.5727708585323
 Best Random Forest MSE: 18120064.019785218
 Best Random Forest RMSE: 4256.766850531659
 
-We usd othr modls and eevalute them, then comparing between the result we note the following:
+We used other modls and evalute them, then comparing between the result we note the following:
 
 1. Recall Score: While the KNN model and the Logistic Regression model achieved similar results for recall, precision and f1-score, in the classification report of the best model, the Logistic Regression shows better performance in the recall score. In this case, a high recall is crucial because we want to minimize false negatives (predicting no stroke when one actually occurs). A higher recall means we are better at identifying actual stroke cases, which is more important than minimizing false positives.
 2. Model Interpretability: Logistic Regression models are generally more interpretable than KNN models. This means that we can understand the factors contributing to the model's predictions, making it easier to identify important variables and potential biases. Interpretability is often critical in healthcare settings for building trust and ensuring ethical decision making.
