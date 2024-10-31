@@ -53,7 +53,7 @@ To test which features affect the outlet sales, first we will distinguish which 
 #### Graph (1): Distribution of outleat slaes
 ![image](https://github.com/user-attachments/assets/b348784b-99c2-4753-ab7a-78ea20ab6122)
 
-The gaph shows the values of outlet sales and there are cheap outlets and expensive outlets wich cost 12,000.
+The gaph shows the values of outlet sales and there are cheap outlets and expensive outlets wich cost more than 13,000.
 
 #### Graph (2): Distribution of Items by Visibility
 ![image](https://github.com/user-attachments/assets/5cc73dc5-91b4-44fb-9f05-8cfab3cdff2d)
